@@ -1,0 +1,6 @@
+Assessment Number & Name	    |Today's Date	|Hours of Work Today    |Description of Work
+Assessment Section 1: Jeopardy   Dec 30th         1  Hour            Setting up basic html/css
+                                 Jan 3rd          7  Hours           Trying to make a basic get request/revamping code      
+                                 Jan 9th          9  Hours           Looking through solution and debugging 
+                                 Jan 10th         10 Hours           Going through the solution and commenting/trying to understand it 
+Total Hours:                                      27 Hours 
