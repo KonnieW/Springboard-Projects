@@ -1,0 +1,124 @@
+body {
+    font-family: Bebas Neue, sans-serif;
+    background-color: #301b3f;
+  }
+  
+  p {
+    color: white;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1 {
+    color: #ff9e00;
+    text-align: center;
+    font-size: 5em;
+  }
+  
+  h2 {
+    color: #ff9e00;
+    text-align: center;
+    font-size: 3em;
+  }
+  
+  form {
+    border: 0.2em #ff9e00 solid;
+    border-radius: 1em;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 3em;
+    padding: 2rem;
+    box-shadow: 0.9em 0.5em 0.5em -0.4em #ff9100;
+    background-image: url("https://images.unsplash.com/photo-1539096567589-dbfe6d0beee2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=389&q=80");
+    /* Photo by <a href="https://unsplash.com/@helloimnik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hello I'm Nik</a> on <a href="https://unsplash.com/s/photos/halloween?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #div1,
+  #div2,
+  #div3 {
+    color: #ff9e00;
+    font-size: 2rem;
+    margin: 2rem;
+  }
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .boxHolder {
+    position: relative;
+    margin: 2rem;
+  }
+  
+  /* .divtwo {
+    position: absolute;
+    background-color: red;
+  } */
+  
+  .picture {
+    position: relative;
+    width: 30rem;
+    height: auto;
+    border: 2px orchid solid;
+    border-radius: 30px;
+  }
+  
+  .picture:hover {
+    cursor: pointer;
+    opacity: 50%;
+  }
+  
+  .up {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: orchid;
+  }
+  
+  .down {
+    position: absolute;
+    bottom: -1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: orchid;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input {
+    display: inline-block;
+    width: 100%;
+    font-size: 0.8em;
+  }
+  
+  /* The name of this has to match the hover button! Otherwise it won't work correctly! */
+  button {
+    background: none;
+    color: #ff9e00;
+    border: 0.18em solid;
+    border-radius: 1em;
+    font-size: 1.5em;
+    padding: 0.5em;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    transition: 0.25s;
+  }
+  
+  button:hover {
+    border-color: #80ffdb;
+    color: #80ffdb;
+    box-shadow: 0.5em 0.5em 0.5em -0.4em #80ffdb;
+    transform: translateX(-0.2em) translateY(-0.5em);
+    cursor: pointer;
+  }
