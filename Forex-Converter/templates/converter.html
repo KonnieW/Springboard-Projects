@@ -1,0 +1,22 @@
+ {% extends "base.html" %}
+ 
+{%  block content %}
+
+<form action="/result" method="POST">
+    <h1>Convert Currencies</h1>   
+    <div>
+        <label for="CF">Convert From:</label>
+        <input type="text" name="CF"  placeholder="Currency">
+    </div>
+    <div>
+        <label for="CT">Convert To:</label>
+        <input type="text" name="CT" placeholder="Currency">
+    </div>
+    <div>
+        <label for="amt">Amount:</label>
+        <input type="text" name="amt">
+    </div>
+    <button>Convert</button>
+</form>
+
+  {% endblock %}
