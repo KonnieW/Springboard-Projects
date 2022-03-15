@@ -24,10 +24,10 @@ class TestConverter(TestCase):
             self.assertIn('<h1>Convert Currencies</h1>', html)
 
 
-    # def test_conversion(self):
-    #     """Test conversion."""
+    def test_conversion(self):
+        """Test conversion."""
 
-    #     with self.client:
-    #         res = self.client.post('/result', data={'amt':'1'})
-    #         self.assertIn(b'1.00', res.data)
-    #         self.assertEqual(res.status_code, 200)
+        with self.client:
+            res = self.client.post('/result', data={'amt':'1','CF':'USD','CT':'USD'})
+            self.assertIn(b'1.00', res.data)
+            self.assertEqual(res.status_code, 200)
