@@ -1,9 +1,6 @@
 """Tests for currency converter."""
-
 from unittest import TestCase
 from app import app
-from forex_python.converter import CurrencyRates, CurrencyCodes
-
 
 class TestConverter(TestCase):
     
